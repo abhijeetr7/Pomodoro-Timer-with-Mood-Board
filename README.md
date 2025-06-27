@@ -13,13 +13,3 @@ Mood Board: After each Pomodoro session, a modal appears, allowing you to add an
 Polaroid Style: Mood board entries are displayed in a visually appealing polaroid style.
 
 Responsive Design: The layout adjusts for different screen sizes, working well on both mobile and desktop.
-
-Next Steps:
-
-Customization: You can easily change the Pomodoro, short break, and long break durations by modifying the POMODORO_DURATION, SHORT_BREAK_DURATION, and LONG_BREAK_DURATION constants in the JavaScript.
-
-Notifications: For a real-world application, you might want to add browser notifications or sound alerts when a session ends.
-
-Persistence: Currently, the mood board data is not saved if you close the browser. You could integrate a backend or use localStorage to save the mood board items. For multi-user functionality, Firebase Firestore would be an excellent choice for data storage.
-
-Image Upload: Instead of just image URLs, you could implement a more robust image upload feature (though this would require a backend).
